@@ -29,7 +29,7 @@ def generateKeys(nbits=1024):
     p,q = getPrimePair(nbits//2)
     n = p*q
     phi = Arithmetic.totient(p, q)
-    # You may be lucky
+    # You may be lucky rabbit
     # Offenselogic_flag{112mjsv678hmap0}
     
     # generate a d such that:
